@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -110,18 +109,12 @@ main{
     border:4px outset rgb(0, 0, 0);
 }
 
-
-
-
-
-
 .d-none{
     display: none;
 }
 .v-none{
     visibility: hidden;
 }
-
 input, button[type="submit"]{
     width: 200px;
     height: 35px;
@@ -131,4 +124,3 @@ input, button[type="submit"]{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }
-
