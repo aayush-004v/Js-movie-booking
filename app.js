@@ -1,5 +1,4 @@
 import {fetchMovieAvailability,fetchMovieList} from "./api.js"
-
 const mainElement = document.getElementById('main');
 let bookerGridHolder = document.getElementById('booker-grid-holder');
 let bookTicketBtn = document.getElementById('book-ticket-btn');
@@ -159,3 +158,10 @@ function createSuccessMessage(email, phone){
                               <p>Phone number: ${phone}</p>`;
      booker.appendChild(successElement);
 }
+
+
+
+
+
+
+
